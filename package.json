@@ -1,0 +1,26 @@
+{
+  "name": "l6r-atm",
+  "version": "1.0.0",
+  "main": "index.js",
+  "type": "module",
+  "publishConfig": {
+    "access": "public"
+  },
+  "bin": {
+    "atm": "main.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Ramsha",
+  "license": "MIT",
+  "description": "Updated ATM",
+  "devDependencies": {
+    "@types/inquirer": "^9.0.7",
+    "@types/node": "^20.14.2"
+  },
+  "dependencies": {
+    "inquirer": "^9.2.23"
+  }
+}
